@@ -29,6 +29,8 @@ def chat(user_input):
     
     return result
 
+st.write("# Chat Bot")
+
 if "message" not in st.session_state:
     st.session_state.message=[]
 
