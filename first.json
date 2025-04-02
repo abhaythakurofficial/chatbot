@@ -1,0 +1,24 @@
+{
+    "id": "gen-1743585610-rgV7e48djRlQuJ8lpD5T",
+    "provider": "Chutes",
+    "model": "mistralai/mistral-small-24b-instruct-2501",
+    "object": "chat.completion",
+    "created": 1743585610,
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+            },
+            "finish_reason": "stop",
+            "native_finish_reason": "stop"
+        }
+        ],
+        "usage": {
+        "prompt_tokens": 178,
+        "completion_tokens": 10,
+        "total_tokens": 188
+        }
+}
+    
