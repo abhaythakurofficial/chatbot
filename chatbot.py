@@ -3,7 +3,7 @@ import requests
 import json
 
 url = "https://openrouter.ai/api/v1/chat/completions"
-api = "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"
+api = st.secrets("Chatbot_Api")
 
 def chat(user_input):
     headers = {
